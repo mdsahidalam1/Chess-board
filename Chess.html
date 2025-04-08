@@ -1,0 +1,36 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unique Chess Master</title>
+    <link rel="stylesheet" href="Chess.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Chess Master</h2>
+            <h3>MD SAHID ALAM</h3>
+            <div id="playerInfo">
+                <p>Player ID: <span id="playerId"></span></p>
+                <p>Timer: <span id="timer">10:00</span></p>
+            </div>
+            <div class="options">
+                <button id="newGame">New Game</button>
+                <button id="vsComputer">Vs Computer</button>
+                <button id="vsPlayer">Vs Player</button>
+                <button id="loadGame">Load Game</button>
+            </div>
+            <div id="gameHistory">
+                <h3>Game History</h3>
+                <ul id="historyList"></ul>
+            </div>
+        </div>
+        <div class="game-container">
+            <div id="chessBoard"></div>
+        </div>
+    </div>
+    <script src="Chess.js"></script>
+</body>
+</html>
